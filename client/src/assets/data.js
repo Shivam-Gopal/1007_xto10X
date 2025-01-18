@@ -14,14 +14,14 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Priya Kumari",
           title: "Product Manager",
           role: "Manager",
           email: "jane.smith@example.com",
@@ -121,14 +121,14 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
         },
         {
           _id: "65c27a0e18c0a1b750ad5cad",
-          name: "John Doe",
+          name: "Priya Kumari",
           title: "Software Engineer",
           role: "Developer",
           email: "john.doe@example.com",
@@ -203,7 +203,7 @@ export const summary = {
       team: [
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Priya Kumari",
           title: "UX Designer",
           role: "Designer",
           email: "alex.johnson@example.com",
@@ -254,14 +254,14 @@ export const summary = {
       team: [
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Priya Kumari",
           title: "Product Manager",
           role: "Manager",
           email: "jane.smith@example.com",
         },
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -306,7 +306,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -393,7 +393,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -480,7 +480,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Shivam Gopal",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -556,7 +556,7 @@ export const summary = {
     },
     {
       _id: "65c202d4aa62f32ffd1303cc",
-      name: "Codewave Asante",
+      name: "Shivam Gopal",
       title: "Administrator",
       role: "Admin",
       createdAt: "2024-02-06T09:58:44.794Z",
@@ -603,7 +603,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Shivam Gopal",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -705,7 +705,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Shivam Gopal",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -853,7 +853,7 @@ export const tasks = [
       },
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Shivam Gopal",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -896,7 +896,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Shivam Gopal",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -978,7 +978,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Shivam Gopal",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -1060,19 +1060,19 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Priya Kumari",
         title: "Administrator",
         email: "admin@gmail.com",
       },
       {
         _id: "65c27a0e18c0a1b750ad5cad",
-        name: "John Doe",
+        name: "Anamika Dutta",
         title: "Software Engineer",
         email: "john.doe@example.com",
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Mohommad Ashfaq",
         title: "Product Manager",
         email: "jane.smith@example.com",
       },
@@ -1101,7 +1101,7 @@ export const tasks = [
 
 export const user = {
   _id: "662f32ffd1303cc",
-  name: "Codewave",
+  name: "Shivam Gopal",
   title: "Administrator",
   role: "Admin",
   email: "admin@mts.com",
@@ -1132,7 +1132,7 @@ export const activitiesData = [
   {
     _id: "2",
     type: "assigned",
-    activity: "task to Codewave Asante",
+    activity: "task to Shivam Gopal",
     date: new Date("2023-01-15").toISOString(),
     by: "Akwasi Asante",
   },
@@ -1148,14 +1148,14 @@ export const activitiesData = [
   {
     _id: "5",
     type: "bug",
-    activity: "bug to Codewave Asante",
+    activity: "bug to Shivam Gopal",
     date: new Date("2023-01-15").toISOString(),
     by: "Akwasi Asante",
   },
   {
     _id: "4",
     type: "completed",
-    activity: "Codewave Asante has completed the task assigned",
+    activity: "Shivam Gopal has completed the task assigned",
     date: new Date("2023-01-15").toISOString(),
     by: "Akwasi Asante",
   },
