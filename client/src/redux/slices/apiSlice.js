@@ -6,6 +6,19 @@ const baseQuery = fetchBaseQuery({ baseUrl: API_URI });
 
 export const apiSlice = createApi({
   baseQuery,
-  tagTypes: [],
-  endpoints: (builder) => ({}),
+  tagTypes: ["User"],
+  endpoints: (builder) => ({
+      fetchUsers: builder.query({
+          query: () => "/users",
+      }),
+      addUser: builder.mutation({
+          query: (newUser) => ({
+              url: "/users",
+              method: "POST",
+              body: newUser,
+          }),
+      }),
+  }),
 });
+
+export const { useFetchUsersQuery, useAddUserMutation } = apiSlice;

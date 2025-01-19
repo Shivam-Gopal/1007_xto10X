@@ -3,7 +3,8 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import Textbox from "../components/Textbox";
 import Button from "../components/Button";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
+import { setCredentials } from "../redux/slices/authSlice";
 
 const Login = () => {
   const { user } = useSelector((state) => state.auth);
@@ -14,9 +15,28 @@ const Login = () => {
   } = useForm();
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const submitHandler = async (data) => {
-    console.log("submit");
+    const { email, password } = data;
+  
+    // Mock user data for testing
+    const mockUser = {
+      fullname:"test",
+      email: "test@example.com",
+      password: "password123", // Example password
+    };
+  
+    // Simple validation
+    if (email === mockUser.email && password === mockUser.password) {
+      // Save user data to Redux
+      dispatch(setCredentials(mockUser));
+  
+      // Redirect to dashboard
+      navigate("/dashboard");
+    } else {
+      alert("Invalid credentials. Please try again.");
+    }
   };
 
   useEffect(() => {
