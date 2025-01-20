@@ -18,8 +18,8 @@ const data = [
     task: null,
     notiType: "alert",
     isRead: [],
-    createdAt: "2024-02-09T05:45:23.353Z",
-    updatedAt: "2024-02-09T05:45:23.353Z",
+    createdAt: "2025-01-18T05:45:23.353Z",
+    updatedAt: "2025-01-18T05:45:23.353Z",
     __v: 0,
   },
   {
@@ -36,8 +36,8 @@ const data = [
     },
     notiType: "alert",
     isRead: [],
-    createdAt: "2024-02-09T09:32:26.810Z",
-    updatedAt: "2024-02-09T09:32:26.810Z",
+    createdAt: "2025-01-18T05:45:23.353Z",
+    updatedAt: "2025-01-18T05:45:23.353Z",
     __v: 0,
   },
 ];
