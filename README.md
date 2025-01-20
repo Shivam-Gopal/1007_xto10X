@@ -53,6 +53,17 @@
   - View personal timelines, progress, and performance analytics.
 
 ---
+### LogIn Page
+[](https://github.com/Shivam-Gopal/1007_xto10X/blob/main/client/public/Screenshot%202025-01-20%20113024.png)
+### DashBoard
+[](https://github.com/Shivam-Gopal/1007_xto10X/blob/main/client/public/Screenshot%202025-01-20%20112815.png)
+### Tasks
+[](https://github.com/Shivam-Gopal/1007_xto10X/blob/main/client/public/Screenshot%202025-01-20%20112841.png)
+### Task Timeline
+[](https://github.com/Shivam-Gopal/1007_xto10X/blob/main/client/public/Screenshot%202025-01-20%20113009.png)
+### Team Members
+- **Acessable by Admin Only**
+  [](https://github.com/Shivam-Gopal/1007_xto10X/blob/main/client/public/Screenshot%202025-01-20%20112908.png)
 
 ## Installation Steps
 
