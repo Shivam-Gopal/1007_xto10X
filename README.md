@@ -75,6 +75,7 @@
     npm run dev
 
 5. **Install and run the server:**
+ ```bash
     cd server
     npm install
     npm start
