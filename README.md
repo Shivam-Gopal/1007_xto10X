@@ -64,6 +64,17 @@
    ```bash
    cd 1007_xto10X
 3. **Configure environment variables:**
-  Edit the .env file and set your MongoDB URI:
+    - Edit the .env file and set your MongoDB URI:
   ```bash
     MONGODB_URI=<your-mongodb-atlas-uri>
+```
+4. **Install and run the client:**
+    ```bash
+    cd client
+    npm install
+    npm run dev
+
+5. **Install and run the server:**
+    cd server
+    npm install
+    npm start
